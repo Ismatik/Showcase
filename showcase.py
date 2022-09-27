@@ -1,2 +1,2 @@
-#New code
-#Hello Saynab
+#Showcase of the project using Django.
+#Checking with github.
