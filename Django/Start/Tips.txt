@@ -1,3 +1,5 @@
+MVT – это аббревиатура, которая расшифровывается, как model-view-template. 
+
 django-admin – это инструмент, при помощи которого можно управлять Django-проектами, 
 в том числе создавать их. 
 
@@ -29,3 +31,9 @@ After running the server, open: 127.0.0.1:8000 or localhost:8000 - open the webs
 Django project consist from apps(приложения). Приложение - папка с модулями(пакет), которая отвечает за конкретную/определенную часть нашего сайта.
 
 Small website- would require one app. Going to use startapp module. Used: python manage.py startapp core command.
+
+1. admin.py - module to manage administration of website
+2. models.py - MVT - Modules
+3. test.py - to test. 
+
+Когда создается приложение - нужно поделиться с Django. Changing setting.py - core.apps.CoreConfig.
