@@ -24,3 +24,8 @@ To run server - python manage.py runserver
 runserver - runserver – эта команда запускает сервер Django, 
 который будет постоянно ждать подключения со стороны клиента (можно провести аналогию с командной mainloop из библиотеки tkinter).
 
+After running the server, open: 127.0.0.1:8000 or localhost:8000 - open the website.
+
+Django project consist from apps(приложения). Приложение - папка с модулями(пакет), которая отвечает за конкретную/определенную часть нашего сайта.
+
+Small website- would require one app. Going to use startapp module. Used: python manage.py startapp core command.
